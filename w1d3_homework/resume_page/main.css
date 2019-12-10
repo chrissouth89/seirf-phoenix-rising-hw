@@ -5,7 +5,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: ghostwhite;
+    color: black;
 }
 
 h3 {
@@ -13,8 +13,8 @@ h3 {
 }
 
 body {
-    background-color: black;
-    color: ghostwhite;
+    background-color: whitesmoke;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font: 3em
 }
