@@ -5,3 +5,13 @@
 // return is a statement that allows a function to output a value back to where it was called.
 // console.log is a function that prints out a value in the console to inspect.
 
+const checkPalindrome = (string) => {
+    const palindrome = string.toLowerCase().split("").reverse().join("")
+    if(palindrome === string.toLowerCase()) {
+        return true
+    }
+    return false
+}
+
+console.log(checkPalindrome("Radar"));
+console.log(checkPalindrome("Borscht"));
