@@ -65,4 +65,36 @@ $ul.append($li5)
 const $li6 = $('<li>')
 $li6.text('Bertie Bott\'s Every Flavor Jelly Beans')
 $ul.append($li6)
+
+const $h5 = $('<h5>')
+$h5.text('Spring 2017')
+$container.append($h5)
+
+const $table = $('<table>')
+$container.append($table)
+
+const $thead = $('<thead>')
+$table.append($thead)
+
+const $tr = $('<tr>')
+$thead.append($tr)
+
+const $th = $('<th>')
+$th.text('Day')
+$tr.append($th)
+
+const $th2 = $('<th>')
+$th2.text('Classes')
+$tr.append($th2)
+
+const $tr2 = $('<tr>')
+$table.append($tr2)
+
+const $td = $('<td>')
+$td.text('Monday')
+$tr.append($td)
+
+const $td2 = $('<td>')
+$td2.text('Charms, Quidditch Practice, History of Magic')
+$tr.append($td2)
 });

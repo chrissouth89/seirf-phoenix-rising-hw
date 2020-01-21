@@ -9,3 +9,17 @@ body {
 ul {
     list-style: none;
 }
+
+table {
+    border: grey 1px solid;
+    margin: auto;
+    align-self: center;
+}
+
+th {
+    border: grey 1px solid;
+}
+
+td {
+    border: grey 1px solid;
+}
