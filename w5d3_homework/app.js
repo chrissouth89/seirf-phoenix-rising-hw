@@ -97,4 +97,25 @@ $tr.append($td)
 const $td2 = $('<td>')
 $td2.text('Charms, Quidditch Practice, History of Magic')
 $tr.append($td2)
+
+$h42.remove();
+
+$li.remove();
+
+$h42.insertAfter($h4).text('Yew Wand with Pheonix Feather Core')
+
+$h42.css('color', 'indigo')
+
+$h4.remove()
+
+$h4.insertAfter($table)
+
+$h4.remove()
+
+$h4.insertAfter($h3)
+
+
+
+
+
 });
