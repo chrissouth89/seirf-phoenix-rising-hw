@@ -1,12 +1,5 @@
-
-
 $( () => {
     
-
-
-
-
-
 
 
 if (typeof jQuery === "undefined"){
@@ -34,7 +27,7 @@ $h3.text('Ravenclaw')
 $container.append($h3)
 
 
-const $h4 = $('<h4>').addClass('Cat')
+const $h4 = $('<h4>').addClass('cat')
 $h4.text('Felix')
 $container.append($h4)
 console.log($h4)
@@ -44,5 +37,32 @@ const $h42 = $('<h4>')
 $h42.text('Holly Wand with Phoenix Feather Core')
 $container.append($h42)
 
-  });
 
+const $ul = $('<ul>')
+$ul.attr('storage', 'trunk')
+$container.append($ul)
+
+const $li = $('<li>')
+$li.text('Butter Beer')
+$ul.append($li)
+
+const $li2 = $('<li>')
+$li2.text('Invisibility Cloak').addClass('secret')
+$ul.append($li2)
+
+const $li3 = $('<li>')
+$li3.text('Magic Map').addClass('secret')
+$ul.append($li3)
+
+const $li4 = $('<li>')
+$li4.text('Time Turner').addClass('secret')
+$ul.append($li4)
+
+const $li5 = $('<li>')
+$li5.text('Leash').addClass('cat')
+$ul.append($li5)
+
+const $li6 = $('<li>')
+$li6.text('Bertie Bott\'s Every Flavor Jelly Beans')
+$ul.append($li6)
+});
