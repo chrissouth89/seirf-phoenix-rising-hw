@@ -114,8 +114,9 @@ $h4.remove()
 
 $h4.insertAfter($h3)
 
+$('.secret').hide('slow').delay(2000).show('slow')
 
+$li5.addClass('cabbage')
 
-
-
+$li5.removeClass('cabbage')
 });
