@@ -13,7 +13,7 @@ console.log($container)
 
 const $h1 = $('<h1>')
 console.log($h1)
-$h1.text('Hello World!')
+$h1.text('Hogwarts')
 $container.append($h1)
 
 
@@ -119,4 +119,12 @@ $('.secret').hide('slow').delay(2000).show('slow')
 $li5.addClass('cabbage')
 
 $li5.removeClass('cabbage')
+
+$h5.text('Fall 2018')
+
+const $li7 = $('<li>')
+$li7.text('Butter Beer')
+$li7.insertBefore($li2)
+
+$ul.attr('storage', 'chest')
 });
