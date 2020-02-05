@@ -31,4 +31,8 @@ const panagrams = [ 'The','job', 'requires', 'extra', 'pluck', 'and', 'zeal', 'f
   // 1 -
   console.log(nums.map(num => num * 100))
   // 2 - 
-  console.log(panagrams.toUpperCase())
+  //   console.log(panagrams);
+// some
+  // 1 - 
+  console.log(nums.some(num => num % 7 === 0))
+  

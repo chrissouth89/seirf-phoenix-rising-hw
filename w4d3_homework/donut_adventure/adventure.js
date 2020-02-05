@@ -72,6 +72,9 @@ class Enemy {
     enemy.health -= weapon.damage;
     console.log(`${weapon.name} does ${weapon.damage} damage to ${enemy.name}`);
   }
+  health() {
+
+  }
 }
 
 const rat = new Enemy(`Pizza Rat`);
