@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+</head>
+
+<style type="text/css">
+    body {
+      color: rgb(0, 255, 25);
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+    }
+    h1{
+        font-size: 36px;
+        border-bottom: 2px yellow solid;
+        display: inline-block;
+    }
+    h2{
+        display: inline-block;
+        color: yellow;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    a {
+        display: inline-block;
+        margin: 10px 0;
+        color: rgb(0, 255, 25)
+    }
+  </style>
+
+
+<body>
+    <h1>Gotta Catch 'Em All!</h1>
+    <br>
+    
+
+            <h2><%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.substring(1) %></h2>
+            <br>
+            <img src="<%=pokemon.img%>.jpg">
+            <br>
+
+    <a href="/pokemon">See all the pokemon again!</a>
+
+</body>
+</html>
