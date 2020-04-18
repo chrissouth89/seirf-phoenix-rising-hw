@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include('./partials/head.ejs') %>
+  </head>
+  <body>
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+    </style>
+    <nav>
+      <h1>Welcome to the store</h1>
+      <a href="/items/new"
+        ><button type="button" class="new">Add a product</button></a
+      >
+    </nav>
+    <div class="container">
+      <% for(let i = 0; i < items.length; i++) { %>
+      <div class="product">
+        <%= items[i].name %>
+        <a href="/items/<%= items[i].id; %>"
+          ><img src="<%= items[i].img%>" alt="no pic"
+        /></a>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
